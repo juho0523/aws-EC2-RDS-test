@@ -15,5 +15,5 @@ async function saveMember(){
     const data = await response.json();
 
     document.getElementById("result").innerText =
-        "저장 완료 : " + data.name;
+        "Save completed : " + data.name;
 }
